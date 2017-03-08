@@ -1,0 +1,470 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'i', '-S', 'redux' ]
+2 info using npm@3.8.6
+3 info using node@v5.12.0
+4 verbose config Skipping project config: /home/raghav/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData redux
+9 silly fetchNamedPackageData redux
+10 silly mapToRegistry name redux
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'redux',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   name: 'redux',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/redux
+15 verbose request uri https://registry.npmjs.org/redux
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 6:44:59 PM
+18 verbose request id 55ee557a70325403
+19 verbose etag W/"58b77e72-24cfb"
+20 verbose lastModified Thu, 02 Mar 2017 02:07:46 GMT
+21 http request GET https://registry.npmjs.org/redux
+22 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140135441536832:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+23 info attempt registry request try #2 at 6:45:09 PM
+24 verbose etag W/"58b77e72-24cfb"
+25 verbose lastModified Thu, 02 Mar 2017 02:07:46 GMT
+26 http request GET https://registry.npmjs.org/redux
+27 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140135441536832:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+28 info attempt registry request try #3 at 6:46:09 PM
+29 verbose etag W/"58b77e72-24cfb"
+30 verbose lastModified Thu, 02 Mar 2017 02:07:46 GMT
+31 http request GET https://registry.npmjs.org/redux
+32 silly get cb [ 304, undefined ]
+33 verbose etag https://registry.npmjs.org/redux from cache
+34 verbose get saving redux to /home/raghav/.npm/registry.npmjs.org/redux/.cache.json
+35 verbose correctMkdir /home/raghav/.npm correctMkdir not in flight; initializing
+36 silly install normalizeTree
+37 silly loadCurrentTree Finishing
+38 silly loadIdealTree Starting
+39 silly install loadIdealTree
+40 silly cloneCurrentTree Starting
+41 silly install cloneCurrentTreeToIdealTree
+42 silly cloneCurrentTree Finishing
+43 silly loadShrinkwrap Starting
+44 silly install loadShrinkwrap
+45 silly loadShrinkwrap Finishing
+46 silly loadAllDepsIntoIdealTree Starting
+47 silly install loadAllDepsIntoIdealTree
+48 silly resolveWithNewModule redux@3.6.0 checking installable status
+49 silly cache add args [ 'redux', null ]
+50 verbose cache add spec redux
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'redux',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'redux',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed redux@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for redux
+54 info addNameTag [ 'redux', 'latest' ]
+55 silly mapToRegistry name redux
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'redux',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'redux',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/redux
+60 verbose addNameTag registry:https://registry.npmjs.org/redux not in flight; fetching
+61 verbose get https://registry.npmjs.org/redux not expired, no request
+62 silly addNameTag next cb for redux with tag latest
+63 silly addNamed redux@3.6.0
+64 verbose addNamed "3.6.0" is a plain semver version for redux
+65 silly cache afterAdd redux@3.6.0
+66 verbose afterAdd /home/raghav/.npm/redux/3.6.0/package/package.json not in flight; writing
+67 verbose correctMkdir /home/raghav/.npm correctMkdir not in flight; initializing
+68 verbose afterAdd /home/raghav/.npm/redux/3.6.0/package/package.json written
+69 silly fetchNamedPackageData lodash-es
+70 silly mapToRegistry name lodash-es
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: 'lodash-es',
+73 silly mapToRegistry   scope: null,
+73 silly mapToRegistry   name: 'lodash-es',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri https://registry.npmjs.org/lodash-es
+75 verbose request uri https://registry.npmjs.org/lodash-es
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 6:46:09 PM
+78 verbose etag W/"58ac4cd7-15906"
+79 verbose lastModified Tue, 21 Feb 2017 14:21:11 GMT
+80 http request GET https://registry.npmjs.org/lodash-es
+81 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140135441536832:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+82 info attempt registry request try #2 at 6:46:19 PM
+83 verbose etag W/"58ac4cd7-15906"
+84 verbose lastModified Tue, 21 Feb 2017 14:21:11 GMT
+85 http request GET https://registry.npmjs.org/lodash-es
+86 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140135441536832:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+87 info attempt registry request try #3 at 6:47:19 PM
+88 verbose etag W/"58ac4cd7-15906"
+89 verbose lastModified Tue, 21 Feb 2017 14:21:11 GMT
+90 http request GET https://registry.npmjs.org/lodash-es
+91 silly get cb [ 304, undefined ]
+92 verbose etag https://registry.npmjs.org/lodash-es from cache
+93 verbose get saving lodash-es to /home/raghav/.npm/registry.npmjs.org/lodash-es/.cache.json
+94 verbose correctMkdir /home/raghav/.npm correctMkdir not in flight; initializing
+95 silly resolveWithNewModule lodash-es@4.17.4 checking installable status
+96 silly cache add args [ 'lodash-es@^4.2.1', null ]
+97 verbose cache add spec lodash-es@^4.2.1
+98 silly cache add parsed spec Result {
+98 silly cache add   raw: 'lodash-es@^4.2.1',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'lodash-es',
+98 silly cache add   rawSpec: '^4.2.1',
+98 silly cache add   spec: '>=4.2.1 <5.0.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed lodash-es@>=4.2.1 <5.0.0
+100 verbose addNamed ">=4.2.1 <5.0.0" is a valid semver range for lodash-es
+101 silly addNameRange { name: 'lodash-es', range: '>=4.2.1 <5.0.0', hasData: false }
+102 silly mapToRegistry name lodash-es
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'lodash-es',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   name: 'lodash-es',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/lodash-es
+107 verbose addNameRange registry:https://registry.npmjs.org/lodash-es not in flight; fetching
+108 verbose get https://registry.npmjs.org/lodash-es not expired, no request
+109 silly addNameRange number 2 { name: 'lodash-es', range: '>=4.2.1 <5.0.0', hasData: true }
+110 silly addNameRange versions [ 'lodash-es',
+110 silly addNameRange   [ '3.0.0',
+110 silly addNameRange     '3.0.1',
+110 silly addNameRange     '3.1.0',
+110 silly addNameRange     '3.2.0',
+110 silly addNameRange     '3.3.0',
+110 silly addNameRange     '3.3.1',
+110 silly addNameRange     '3.4.0',
+110 silly addNameRange     '3.5.0',
+110 silly addNameRange     '3.6.0',
+110 silly addNameRange     '3.7.0',
+110 silly addNameRange     '3.8.0',
+110 silly addNameRange     '3.9.0',
+110 silly addNameRange     '3.9.2',
+110 silly addNameRange     '3.9.3',
+110 silly addNameRange     '3.10.0',
+110 silly addNameRange     '3.10.1',
+110 silly addNameRange     '4.0.0',
+110 silly addNameRange     '4.0.1',
+110 silly addNameRange     '4.1.0',
+110 silly addNameRange     '4.2.0',
+110 silly addNameRange     '4.2.1',
+110 silly addNameRange     '4.3.0',
+110 silly addNameRange     '4.4.0',
+110 silly addNameRange     '4.5.0',
+110 silly addNameRange     '4.5.1',
+110 silly addNameRange     '4.6.0',
+110 silly addNameRange     '4.6.1',
+110 silly addNameRange     '4.7.0',
+110 silly addNameRange     '4.8.0',
+110 silly addNameRange     '4.8.2',
+110 silly addNameRange     '4.9.0',
+110 silly addNameRange     '4.10.0',
+110 silly addNameRange     '4.11.0',
+110 silly addNameRange     '4.11.1',
+110 silly addNameRange     '4.11.2',
+110 silly addNameRange     '4.12.0',
+110 silly addNameRange     '4.13.0',
+110 silly addNameRange     '4.13.1',
+110 silly addNameRange     '4.14.0',
+110 silly addNameRange     '4.14.1',
+110 silly addNameRange     '4.14.2',
+110 silly addNameRange     '4.15.0',
+110 silly addNameRange     '4.16.0',
+110 silly addNameRange     '4.16.1',
+110 silly addNameRange     '4.16.2',
+110 silly addNameRange     '4.16.3',
+110 silly addNameRange     '4.16.4',
+110 silly addNameRange     '4.16.5',
+110 silly addNameRange     '4.16.6',
+110 silly addNameRange     '4.17.0',
+110 silly addNameRange     '4.17.1',
+110 silly addNameRange     '4.17.2',
+110 silly addNameRange     '4.17.3',
+110 silly addNameRange     '4.17.4' ] ]
+111 silly addNamed lodash-es@4.17.4
+112 verbose addNamed "4.17.4" is a plain semver version for lodash-es
+113 silly cache afterAdd lodash-es@4.17.4
+114 verbose afterAdd /home/raghav/.npm/lodash-es/4.17.4/package/package.json not in flight; writing
+115 verbose correctMkdir /home/raghav/.npm correctMkdir not in flight; initializing
+116 verbose afterAdd /home/raghav/.npm/lodash-es/4.17.4/package/package.json written
+117 silly loadAllDepsIntoIdealTree Finishing
+118 silly idealTree:prePrune raghav
+118 silly idealTree:prePrune +-- ansi-regex@2.1.1
+118 silly idealTree:prePrune +-- ansi-styles@2.2.1
+118 silly idealTree:prePrune +-- babel-code-frame@6.22.0
+118 silly idealTree:prePrune +-- babel-core@6.23.1
+118 silly idealTree:prePrune +-- babel-generator@6.23.0
+118 silly idealTree:prePrune +-- babel-helpers@6.23.0
+118 silly idealTree:prePrune +-- babel-loader@6.3.2
+118 silly idealTree:prePrune +-- babel-messages@6.23.0
+118 silly idealTree:prePrune +-- babel-plugin-syntax-decorators@6.13.0
+118 silly idealTree:prePrune +-- babel-plugin-transform-decorators-legacy@1.3.4
+118 silly idealTree:prePrune +-- babel-register@6.23.0
+118 silly idealTree:prePrune +-- babel-runtime@6.23.0
+118 silly idealTree:prePrune +-- babel-template@6.23.0
+118 silly idealTree:prePrune +-- babel-traverse@6.23.1
+118 silly idealTree:prePrune +-- babel-types@6.23.0
+118 silly idealTree:prePrune +-- babel@6.23.0
+118 silly idealTree:prePrune +-- babylon@6.16.1
+118 silly idealTree:prePrune +-- balanced-match@0.4.2
+118 silly idealTree:prePrune +-- big.js@3.1.3
+118 silly idealTree:prePrune +-- brace-expansion@1.1.6
+118 silly idealTree:prePrune +-- chalk@1.1.3
+118 silly idealTree:prePrune +-- commondir@1.0.1
+118 silly idealTree:prePrune +-- concat-map@0.0.1
+118 silly idealTree:prePrune +-- convert-source-map@1.4.0
+118 silly idealTree:prePrune +-- core-js@2.4.1
+118 silly idealTree:prePrune +-- debug@2.6.1
+118 silly idealTree:prePrune +-- detect-indent@4.0.0
+118 silly idealTree:prePrune +-- emojis-list@2.1.0
+118 silly idealTree:prePrune +-- es6-promise@1.0.0
+118 silly idealTree:prePrune +-- escape-string-regexp@1.0.5
+118 silly idealTree:prePrune +-- esutils@2.0.2
+118 silly idealTree:prePrune +-- find-cache-dir@0.1.1
+118 silly idealTree:prePrune +-- find-up@1.1.2
+118 silly idealTree:prePrune +-- globals@9.16.0
+118 silly idealTree:prePrune +-- has-ansi@2.0.0
+118 silly idealTree:prePrune +-- home-or-tmp@2.0.0
+118 silly idealTree:prePrune +-- invariant@2.2.2
+118 silly idealTree:prePrune +-- is-finite@1.0.2
+118 silly idealTree:prePrune +-- js-tokens@3.0.1
+118 silly idealTree:prePrune +-- jsesc@1.3.0
+118 silly idealTree:prePrune +-- json5@0.5.1
+118 silly idealTree:prePrune +-- loader-utils@0.2.17
+118 silly idealTree:prePrune +-- lodash-es@4.17.4
+118 silly idealTree:prePrune +-- lodash@4.17.4
+118 silly idealTree:prePrune +-- loose-envify@1.3.1
+118 silly idealTree:prePrune +-- minimatch@3.0.3
+118 silly idealTree:prePrune +-- minimist@0.0.8
+118 silly idealTree:prePrune +-- mkdirp@0.5.1
+118 silly idealTree:prePrune +-- ms@0.7.2
+118 silly idealTree:prePrune +-- number-is-nan@1.0.1
+118 silly idealTree:prePrune +-- object-assign@4.1.1
+118 silly idealTree:prePrune +-- os-homedir@1.0.2
+118 silly idealTree:prePrune +-- os-tmpdir@1.0.2
+118 silly idealTree:prePrune +-- path-exists@2.1.0
+118 silly idealTree:prePrune +-- path-is-absolute@1.0.1
+118 silly idealTree:prePrune +-- pinkie-promise@2.0.1
+118 silly idealTree:prePrune +-- pinkie@2.0.4
+118 silly idealTree:prePrune +-- pkg-dir@1.0.0
+118 silly idealTree:prePrune +-- private@0.1.7
+118 silly idealTree:prePrune +-- redux-devtools-instrument@1.8.0
+118 silly idealTree:prePrune +-- redux-devtools@3.3.2
+118 silly idealTree:prePrune +-- redux-react@2.0.0
+118 silly idealTree:prePrune +-- redux@3.6.0
+118 silly idealTree:prePrune +-- regenerator-runtime@0.10.3
+118 silly idealTree:prePrune +-- repeating@2.0.1
+118 silly idealTree:prePrune +-- slash@1.0.0
+118 silly idealTree:prePrune +-- source-map-support@0.4.11
+118 silly idealTree:prePrune +-- source-map@0.5.6
+118 silly idealTree:prePrune +-- strip-ansi@3.0.1
+118 silly idealTree:prePrune +-- supports-color@2.0.0
+118 silly idealTree:prePrune +-- symbol-observable@1.0.4
+118 silly idealTree:prePrune +-- to-fast-properties@1.0.2
+118 silly idealTree:prePrune +-- trim-right@1.0.1
+118 silly idealTree:prePrune `-- webpack-localforage@0.9.2
+119 silly loadIdealTree Finishing
+120 silly currentTree raghav
+120 silly currentTree +-- ansi-regex@2.1.1
+120 silly currentTree +-- ansi-styles@2.2.1
+120 silly currentTree +-- babel-code-frame@6.22.0
+120 silly currentTree +-- babel-core@6.23.1
+120 silly currentTree +-- babel-generator@6.23.0
+120 silly currentTree +-- babel-helpers@6.23.0
+120 silly currentTree +-- babel-loader@6.3.2
+120 silly currentTree +-- babel-messages@6.23.0
+120 silly currentTree +-- babel-plugin-syntax-decorators@6.13.0
+120 silly currentTree +-- babel-plugin-transform-decorators-legacy@1.3.4
+120 silly currentTree +-- babel-register@6.23.0
+120 silly currentTree +-- babel-runtime@6.23.0
+120 silly currentTree +-- babel-template@6.23.0
+120 silly currentTree +-- babel-traverse@6.23.1
+120 silly currentTree +-- babel-types@6.23.0
+120 silly currentTree +-- babel@6.23.0
+120 silly currentTree +-- babylon@6.16.1
+120 silly currentTree +-- balanced-match@0.4.2
+120 silly currentTree +-- big.js@3.1.3
+120 silly currentTree +-- brace-expansion@1.1.6
+120 silly currentTree +-- chalk@1.1.3
+120 silly currentTree +-- commondir@1.0.1
+120 silly currentTree +-- concat-map@0.0.1
+120 silly currentTree +-- convert-source-map@1.4.0
+120 silly currentTree +-- core-js@2.4.1
+120 silly currentTree +-- debug@2.6.1
+120 silly currentTree +-- detect-indent@4.0.0
+120 silly currentTree +-- emojis-list@2.1.0
+120 silly currentTree +-- es6-promise@1.0.0
+120 silly currentTree +-- escape-string-regexp@1.0.5
+120 silly currentTree +-- esutils@2.0.2
+120 silly currentTree +-- find-cache-dir@0.1.1
+120 silly currentTree +-- find-up@1.1.2
+120 silly currentTree +-- globals@9.16.0
+120 silly currentTree +-- has-ansi@2.0.0
+120 silly currentTree +-- home-or-tmp@2.0.0
+120 silly currentTree +-- invariant@2.2.2
+120 silly currentTree +-- is-finite@1.0.2
+120 silly currentTree +-- js-tokens@3.0.1
+120 silly currentTree +-- jsesc@1.3.0
+120 silly currentTree +-- json5@0.5.1
+120 silly currentTree +-- loader-utils@0.2.17
+120 silly currentTree +-- lodash-es@4.17.4
+120 silly currentTree +-- lodash@4.17.4
+120 silly currentTree +-- loose-envify@1.3.1
+120 silly currentTree +-- minimatch@3.0.3
+120 silly currentTree +-- minimist@0.0.8
+120 silly currentTree +-- mkdirp@0.5.1
+120 silly currentTree +-- ms@0.7.2
+120 silly currentTree +-- number-is-nan@1.0.1
+120 silly currentTree +-- object-assign@4.1.1
+120 silly currentTree +-- os-homedir@1.0.2
+120 silly currentTree +-- os-tmpdir@1.0.2
+120 silly currentTree +-- path-exists@2.1.0
+120 silly currentTree +-- path-is-absolute@1.0.1
+120 silly currentTree +-- pinkie-promise@2.0.1
+120 silly currentTree +-- pinkie@2.0.4
+120 silly currentTree +-- pkg-dir@1.0.0
+120 silly currentTree +-- private@0.1.7
+120 silly currentTree +-- redux-devtools-instrument@1.8.0
+120 silly currentTree +-- redux-devtools@3.3.2
+120 silly currentTree +-- redux-react@2.0.0
+120 silly currentTree +-- redux@3.6.0
+120 silly currentTree +-- regenerator-runtime@0.10.3
+120 silly currentTree +-- repeating@2.0.1
+120 silly currentTree +-- slash@1.0.0
+120 silly currentTree +-- source-map-support@0.4.11
+120 silly currentTree +-- source-map@0.5.6
+120 silly currentTree +-- strip-ansi@3.0.1
+120 silly currentTree +-- supports-color@2.0.0
+120 silly currentTree +-- symbol-observable@1.0.4
+120 silly currentTree +-- to-fast-properties@1.0.2
+120 silly currentTree +-- trim-right@1.0.1
+120 silly currentTree `-- webpack-localforage@0.9.2
+121 silly idealTree raghav
+121 silly idealTree +-- ansi-regex@2.1.1
+121 silly idealTree +-- ansi-styles@2.2.1
+121 silly idealTree +-- babel-code-frame@6.22.0
+121 silly idealTree +-- babel-core@6.23.1
+121 silly idealTree +-- babel-generator@6.23.0
+121 silly idealTree +-- babel-helpers@6.23.0
+121 silly idealTree +-- babel-loader@6.3.2
+121 silly idealTree +-- babel-messages@6.23.0
+121 silly idealTree +-- babel-plugin-syntax-decorators@6.13.0
+121 silly idealTree +-- babel-plugin-transform-decorators-legacy@1.3.4
+121 silly idealTree +-- babel-register@6.23.0
+121 silly idealTree +-- babel-runtime@6.23.0
+121 silly idealTree +-- babel-template@6.23.0
+121 silly idealTree +-- babel-traverse@6.23.1
+121 silly idealTree +-- babel-types@6.23.0
+121 silly idealTree +-- babel@6.23.0
+121 silly idealTree +-- babylon@6.16.1
+121 silly idealTree +-- balanced-match@0.4.2
+121 silly idealTree +-- big.js@3.1.3
+121 silly idealTree +-- brace-expansion@1.1.6
+121 silly idealTree +-- chalk@1.1.3
+121 silly idealTree +-- commondir@1.0.1
+121 silly idealTree +-- concat-map@0.0.1
+121 silly idealTree +-- convert-source-map@1.4.0
+121 silly idealTree +-- core-js@2.4.1
+121 silly idealTree +-- debug@2.6.1
+121 silly idealTree +-- detect-indent@4.0.0
+121 silly idealTree +-- emojis-list@2.1.0
+121 silly idealTree +-- es6-promise@1.0.0
+121 silly idealTree +-- escape-string-regexp@1.0.5
+121 silly idealTree +-- esutils@2.0.2
+121 silly idealTree +-- find-cache-dir@0.1.1
+121 silly idealTree +-- find-up@1.1.2
+121 silly idealTree +-- globals@9.16.0
+121 silly idealTree +-- has-ansi@2.0.0
+121 silly idealTree +-- home-or-tmp@2.0.0
+121 silly idealTree +-- invariant@2.2.2
+121 silly idealTree +-- is-finite@1.0.2
+121 silly idealTree +-- js-tokens@3.0.1
+121 silly idealTree +-- jsesc@1.3.0
+121 silly idealTree +-- json5@0.5.1
+121 silly idealTree +-- loader-utils@0.2.17
+121 silly idealTree +-- lodash-es@4.17.4
+121 silly idealTree +-- lodash@4.17.4
+121 silly idealTree +-- loose-envify@1.3.1
+121 silly idealTree +-- minimatch@3.0.3
+121 silly idealTree +-- minimist@0.0.8
+121 silly idealTree +-- mkdirp@0.5.1
+121 silly idealTree +-- ms@0.7.2
+121 silly idealTree +-- number-is-nan@1.0.1
+121 silly idealTree +-- object-assign@4.1.1
+121 silly idealTree +-- os-homedir@1.0.2
+121 silly idealTree +-- os-tmpdir@1.0.2
+121 silly idealTree +-- path-exists@2.1.0
+121 silly idealTree +-- path-is-absolute@1.0.1
+121 silly idealTree +-- pinkie-promise@2.0.1
+121 silly idealTree +-- pinkie@2.0.4
+121 silly idealTree +-- pkg-dir@1.0.0
+121 silly idealTree +-- private@0.1.7
+121 silly idealTree +-- redux-devtools-instrument@1.8.0
+121 silly idealTree +-- redux-devtools@3.3.2
+121 silly idealTree +-- redux-react@2.0.0
+121 silly idealTree +-- redux@3.6.0
+121 silly idealTree +-- regenerator-runtime@0.10.3
+121 silly idealTree +-- repeating@2.0.1
+121 silly idealTree +-- slash@1.0.0
+121 silly idealTree +-- source-map-support@0.4.11
+121 silly idealTree +-- source-map@0.5.6
+121 silly idealTree +-- strip-ansi@3.0.1
+121 silly idealTree +-- supports-color@2.0.0
+121 silly idealTree +-- symbol-observable@1.0.4
+121 silly idealTree +-- to-fast-properties@1.0.2
+121 silly idealTree +-- trim-right@1.0.1
+121 silly idealTree `-- webpack-localforage@0.9.2
+122 silly generateActionsToTake Starting
+123 silly install generateActionsToTake
+124 warn checkPermissions Missing write access to /home/raghav/node_modules
+125 silly rollbackFailedOptional Starting
+126 silly rollbackFailedOptional Finishing
+127 silly runTopLevelLifecycles Starting
+128 silly runTopLevelLifecycles Finishing
+129 silly install printInstalled
+130 warn enoent ENOENT: no such file or directory, open '/home/raghav/package.json'
+131 warn babel-loader@6.3.2 requires a peer of webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc but none was installed.
+132 warn redux-devtools@3.3.2 requires a peer of react@^0.14.0 || ^15.0.0 but none was installed.
+133 warn redux-devtools@3.3.2 requires a peer of react-redux@^4.0.0 || ^5.0.0 but none was installed.
+134 warn raghav No description
+135 warn raghav No repository field.
+136 warn raghav No README data
+137 warn raghav No license field.
+138 verbose stack Error: EACCES: permission denied, access '/home/raghav/node_modules'
+138 verbose stack     at Error (native)
+139 verbose cwd /home/raghav
+140 error Linux 4.4.0-64-generic
+141 error argv "/usr/bin/nodejs" "/usr/bin/npm" "i" "-S" "redux"
+142 error node v5.12.0
+143 error npm  v3.8.6
+144 error path /home/raghav/node_modules
+145 error code EACCES
+146 error errno -13
+147 error syscall access
+148 error Error: EACCES: permission denied, access '/home/raghav/node_modules'
+148 error     at Error (native)
+148 error  { [Error: EACCES: permission denied, access '/home/raghav/node_modules']
+148 error   errno: -13,
+148 error   code: 'EACCES',
+148 error   syscall: 'access',
+148 error   path: '/home/raghav/node_modules' }
+149 error Please try running this command again as root/Administrator.
+150 verbose exit [ -13, true ]
